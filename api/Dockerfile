@@ -2,9 +2,11 @@ FROM node:19-alpine
 
 WORKDIR /app
 
-COPY . .
+COPY package.json .
 
 RUN npm install
+
+COPY . .
 
 EXPOSE 4000
 # required for docker desktop port mapping

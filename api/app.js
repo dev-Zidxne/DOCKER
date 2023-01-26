@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     {
       id: "2",
       title: "  Game Review: Pokemon Brillian Diamond",
-    }, myapp  
+    },
     {
       id: "3",
       title: "Show Review: Alice in Borderland",
